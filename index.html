@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Lab2-Bootstrap</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand text-white" href="#">Smart Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacts.html">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                                Login
+                            </a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Login</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                                </div>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End of Navigation Bar -->
+    <!--   -->
+    <div class="container mt-3">
+        <div class="row ">
+            <div class=" col-lg-8 col-sm-9 ">
+                <div>
+                    <h1 class="display-6 ">Post Title</h1>
+                    <p class="lead ">by <a href="# ">Smart Bootstrap</a></p>
+                    <hr class="my-4 ">
+                    <p>posted on January 1, 2019 at 12:00 PM</p>
+                    <hr class="my-4 ">
+                </div>
+                <!--  -->
+                <div class="card mb-3 ">
+                    <img src="https://via.placeholder.com/900x300 " class="card-img-top " alt="... ">
+                    <hr class="my-4 ">
+                    <div class="card-body ">
+                        <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue gravida nisl vitae posuere. Cras consectetur, leo et tristique cursus, nisi velit malesuada massa, in vehicula neque urna faucibus quam. Duis viverra mi et arcu
+                            vestibulum, vel maximus massa vulputate. Praesent euismod sapien et quam commodo, ut venenatis nibh porttitor. Ut eu turpis et diam ullamcorper pretium. Sed vestibulum orci vitae ultricies tincidunt. Cras scelerisque ultricies
+                            lacus, efficitur aliquam nisi dapibus sit amet. Etiam aliquet augue non sagittis pellentesque. Nam et urna ut mi elementum egestas. </p>
+                        <p class="card-text ">Aenean laoreet ultrices dolor at hendrerit. Sed in nulla eget neque pharetra bibendum. Aenean placerat dolor a ante gravida, nec bibendum leo porta. Aliquam vitae laoreet urna, vel tincidunt lectus. Aenean pellentesque massa non
+                            ligula bibendum bibendum. Cras scelerisque felis id sem tempus, ut venenatis ex porttitor. In interdum eros nec ligula sagittis suscipit. Donec a tempor lectus. Ut ullamcorper turpis nec metus interdum mollis. Vivamus sed sem
+                            mauris. Vestibulum id risus odio. Sed ipsum lacus, eleifend vel mollis eget, consectetur nec sem. Nullam non aliquam augue. </p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="card mb-3 ">
+                    <div class="card-header ">
+                        <h5 class="card-title ">Leave a Comment:</h5>
+                    </div>
+                    <div class="card-body ">
+                        <div class="form-group ">
+                            <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+                        </div>
+                        <a href="# " class="btn btn-primary ">Submit</a>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="Commenter ">
+                    <div class="media mb-2 ">
+                        <img src="https://via.placeholder.com/64x64 " class="mr-3 rounded-circle " alt="... ">
+                        <div class="media-body ">
+                            <h5 class="mt-0 ">Commenter Name</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </div>
+
+                    <div class="media mb-4 ">
+                        <img src="https://via.placeholder.com/64x64 " class="mr-3 rounded-circle " alt="... ">
+                        <div class="media-body ">
+                            <h5 class="mt-0 ">Commenter Name</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+                            <div class="media mt-3 ">
+                                <a class="mr-3 " href="# ">
+                                    <img src="https://via.placeholder.com/64x64 " class="mr-3 rounded-circle " alt="... ">
+                                </a>
+                                <div class="media-body ">
+                                    <h5 class="mt-0 ">Commenter Name</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                            </div>
+
+                            <div class="media mt-3 ">
+                                <a class="mr-3 " href="# ">
+                                    <img src="https://via.placeholder.com/64x64 " class="mr-3 rounded-circle " alt="... ">
+                                </a>
+                                <div class="media-body ">
+                                    <h5 class="mt-0 ">Commenter Name</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class=" col-lg-4 col-sm-3 ">
+                <div class="card mt-3 mb-3 ">
+                    <div class="card-header ">
+                        <h5 class="card-title ">Search</h5>
+                    </div>
+                    <div class="card-body ">
+                        <div class="input-group mb-3 ">
+                            <input type="text " class="form-control " placeholder="Search for... " aria-label="Search for... " aria-describedby="Go! ">
+                            <div class="input-group-append ">
+                                <button class="btn btn-dark " type="button " id="Go! ">GO!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="card mb-3 ">
+                    <div class="card-header ">
+                        <h5 class="card-title ">Categories</h5>
+                    </div>
+                    <div class="card-body ">
+                        <div class="row ">
+                            <div class="col-sm-6 ">
+                                <button type="button " class="btn btn-link ">Web Design</button>
+                                <button type="button " class="btn btn-link ">HTML</button>
+                                <button type="button " class="btn btn-link ">Freebies</button>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <button type="button " class="btn btn-link ">Javascript</button>
+                                <button type="button " class="btn btn-link ">CSS</button>
+                                <button type="button " class="btn btn-link ">Tutorials</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="card mb-3 ">
+                    <div class="card-header ">
+                        <h5 class="card-title ">Side Widget</h5>
+                    </div>
+                    <div class="card-body ">
+                        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <div class="mx-auto">
+                    <a class="navbar-brand " href="# ">Copyrights © Your Website 2020</a>
+                </div>
+            </div>
+        </nav>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
